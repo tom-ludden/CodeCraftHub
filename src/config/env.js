@@ -1,2 +1,2 @@
-require('dotenv').confiMONGO_URI=mongodb://root:<mongo_password>@<mongo_host>:27017/usermngtservice?authSource=admin
-PORT=5000g()
+MONGO_URI=mongodb://root:<mongo_password>@<mongo_host>:27017/usermngtservice?authSource=admin
+PORT=5000
