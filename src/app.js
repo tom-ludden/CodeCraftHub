@@ -3,7 +3,7 @@ const express = require('express');
 const connectDB = require('./config/db');
 const initServer = require('./config/server');
 const userRoutes = require('./routes/userRoutes');
-const errorHandler = require('./utils/errorhandler');
+const errorHandler = require('./utils/errorandler');
 const app = initServer();
 connectDB();
 app.use('/api/users', userRoutes);
