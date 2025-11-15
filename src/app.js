@@ -9,4 +9,8 @@ connectDB();
 app.use('/api/users', userRoutes);
 app.use(errorHandler);
 const PORT = process.env.PORT || 5000;
+<<<<<<< HEAD
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+=======
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+>>>>>>> 63adbaa (Initial commit)

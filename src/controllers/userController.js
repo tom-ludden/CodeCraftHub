@@ -26,4 +26,8 @@ exports.loginUser = async (req, res) => {
     } catch (error) {
         res.status(500).json({ error: 'Login failed.' });
     }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 63adbaa (Initial commit)
