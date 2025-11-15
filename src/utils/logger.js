@@ -7,8 +7,3 @@ const logger = winston.createLogger({
         new winston.transports.Console()
     ]
 });
-<<<<<<< HEAD
-module.exports = logger;
-=======
-module.exports = logger;
->>>>>>> 63adbaa (Initial commit)
